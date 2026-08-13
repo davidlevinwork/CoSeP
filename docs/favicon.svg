@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#0A0C0F"/>
+  <!-- three components in separability space: two redundant, one complementary -->
+  <circle cx="10" cy="11" r="2.6" fill="#E5484D"/>
+  <circle cx="15" cy="12.5" r="2.6" fill="#E5484D" opacity="0.45"/>
+  <circle cx="21" cy="20" r="2.6" fill="#30A46C"/>
+  <circle cx="11" cy="21" r="2.6" fill="#3E63DD"/>
+</svg>
