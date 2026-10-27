@@ -1,0 +1,31 @@
+# CoSeP - Complementary Separability Pruning
+# Dependencies of the method (pip install -r requirements.txt, or pip install -e .)
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchmetrics>=1.0.0
+
+# Pruning: physical removal of channels (dependency graph)
+torch-pruning>=1.6.1
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning & Clustering (t-SNE's max_iter needs scikit-learn 1.5)
+scikit-learn>=1.5.0
+kmedoids>=0.4.0
+kneed>=0.8.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Logging
+loguru>=0.7.0
+tqdm>=4.66.0
+
+# Development/Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0

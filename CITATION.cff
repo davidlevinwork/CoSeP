@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below (see preferred-citation)."
+title: "CoSeP: Complementary Separability Pruning via Class-Separability Clustering"
+type: software
+authors:
+  - given-names: David
+    family-names: Levin
+    affiliation: "Faculty of Engineering, Bar-Ilan University, Israel"
+  - given-names: Gonen
+    family-names: Singer
+    affiliation: "Faculty of Engineering, Bar-Ilan University, Israel"
+license: PolyForm-Noncommercial-1.0.0
+url: "https://arxiv.org/abs/2505.13225"
+keywords:
+  - neural network pruning
+  - structured pruning
+  - model compression
+  - class separability
+  - Jeffries-Matusita distance
+  - k-medoids
+preferred-citation:
+  type: conference-paper
+  title: "CoSeP: Complementary Separability Pruning via Class-Separability Clustering"
+  authors:
+    - given-names: David
+      family-names: Levin
+      affiliation: "Faculty of Engineering, Bar-Ilan University, Israel"
+    - given-names: Gonen
+      family-names: Singer
+      affiliation: "Faculty of Engineering, Bar-Ilan University, Israel"
+  collection-title: "British Machine Vision Conference (BMVC)"
+  conference:
+    name: "British Machine Vision Conference (BMVC)"
+  year: 2026
+  url: "https://arxiv.org/abs/2505.13225"
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2505.13225"
+      description: "arXiv preprint (camera-ready version)"
