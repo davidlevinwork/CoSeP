@@ -14,13 +14,13 @@
     <meta name="theme-color" content="#F5F6F7" />
 
     <!--
-      SET BEFORE DEPLOYING. Most link scrapers, Twitter and Slack among them,
-      will not resolve a relative og:image, so these two need the real origin
-      once the page has one. Regenerate the card with tools/make_og.py after
-      changing the title, authors or venue.
+      Absolute addresses: most link scrapers, Twitter and Slack among them,
+      will not resolve a relative og:image. Update them if the page moves.
+      Regenerate the card with tools/make_og.py after changing the title,
+      authors or venue.
     -->
-    <meta property="og:url" content="./" />
-    <meta property="og:image" content="./og.png" />
+    <meta property="og:url" content="https://davidlevinwork.github.io/CoSeP/" />
+    <meta property="og:image" content="https://davidlevinwork.github.io/CoSeP/og.png" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="CoSeP" />
@@ -30,7 +30,7 @@
       content="Prune for complementarity, not importance alone. CoSeP groups components by how they separate classes and keeps a representative from each — no per-layer pruning ratios. BMVC 2026."
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="./og.png" />
+    <meta name="twitter:image" content="https://davidlevinwork.github.io/CoSeP/og.png" />
     <meta name="twitter:title" content="CoSeP — Complementary Separability Pruning" />
     <meta
       name="twitter:description"
